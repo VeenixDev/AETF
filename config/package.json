@@ -1,0 +1,22 @@
+{
+	"name": "@aetf/config",
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"main": "",
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.5.0",
+		"prettier": "^3.8.4",
+		"typescript": "^6.0.3",
+		"typescript-eslint": "^8.62.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"exports": {
+		"./prettier": "./prettier.config.mjs",
+		"./eslint": "./eslint.config.mjs",
+		"./tsconfig.base.json": "./tsconfig.json"
+	}
+}

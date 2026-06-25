@@ -1,12 +1,16 @@
 {
-  "name": "aetf",
+  "name": "@aetf/cli",
   "version": "0.0.1",
   "description": "",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "@types/node": "6.14.13",
+    "typescript": "^6.0.3"
+  },
   "keywords": [],
-  "workspaces": ["core", "cli", "config"],
   "author": "",
   "license": "MIT"
 }
